@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    padding: 20px 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+.left{
+    display: flex;
+    margin: 10px 20px;
+    color: white;
+}
+
+
+
+
+#logo{
+    width: 100px;
+    
+}
+
+
+#search{
+    width: 300px;
+    border-radius:20px;
+    border: none;
+    background-color: inherit;
+    color: white;
+
+}
+
+
+.right{
+    display: flex;
+    color: yellow;
+    font-family: cursive;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+
+#im{
+    width: 400px;
+    padding-right: 20px;
+    border-radius: 120px;
+    image-orientation: flip;
+}
+
+.aaa{
+    padding: 20px ;
+    cursor: pointer;
+
+}
+
+
+#download{
+    padding: 10px 7px;
+    border-radius: 20px;
+    border: none;
+    background-color: inherit;
+    color: yellow;
+    cursor: pointer;
+}
+
+
+#download:hover{
+    border: 1px solid white;
+}
+
+
+.aaa:hover{
+    border-bottom: 2px solid lightblue;
+}
+
+
+.aaa:active{
+    border-bottom: 2px solid lightblue;
+    background-color: rgb(0, 0, 138)
+}
+
+
+.home{
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#first{
+    font-size: 32px;
+    color: white ;
+    word-spacing: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#second{
+    letter-spacing: 3px;
+    font-family: cursive;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+
+#third{
+    color: pink;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+#forth{
+    text-decoration: underline;
+    color: lightblue;
+    font-size:24px;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#five{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    padding: 20px 0px;
+    color: white;
+}
+ 
+
+#menu{
+    display: none;
+}
+
+
+
+#part1{
+    color: yellow;
+    
+}
+i{
+    color: yellow;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.skill{
+    height: 600px;
+    background-color: black;
+
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+
+#col{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.html, .css, .js, .type, .node, .angle, .mongo{
+    height: 300px;
+    width: 250px;
+    color: yellow;
+    margin: 20px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+    
+}
+
+
+
+.portfolio{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+} 
+.side{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+#aa{
+    margin: 10px;
+    font-size: 20px;
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.what{
+    letter-spacing: 1px;
+    font-size: 28px;
+    margin: 10px;
+}
+
+
+.note{
+    font-size: 18;
+
+}
+
+
+span{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#view{
+    padding: 10px 20px;
+    background-color: inherit;
+    border-radius: 20px;
+    color: yellow;
+    margin: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.side2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.grid{
+    padding: 10px;
+    margin: 10px;
+    height: 240px;
+    width: 200px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: wrap;
+}
+
+
+
+
+.about{
+    height: 600px;
+    background-color: black;
+}
+
+.who{
+    height: 70px;
+    padding:  10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.who1{
+    color: gray;
+}
+
+
+
+.resume{
+    color: yellow;
+}
+
+.card{
+    display: flex;   
+    margin-top: 20px;
+}
+
+.card1{
+    color: yellow;
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card2{
+    width: 60%;
+    color: white;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.awake{
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+li{
+    list-style: none;
+}
+
+#why{
+    font-size: 50px;
+}
+
+
+.contact{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+
+footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
